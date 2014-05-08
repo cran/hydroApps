@@ -73,6 +73,8 @@ ARPIEM2012.sim.Lmoments(Qind.type, LCV_LCA.type, Qind, sdQind, LCV, sdLCV, LCA, 
 %}
 \examples{
 	\dontrun{
+	require(nsRFA)
+	
 	ARPIEM2012.sim.Lmoments(Qind.type="C", LCV_LCA.type="C_C", Qind=10, sdQind=2,
 	   LCV=0.25, sdLCV=0.08, LCA=0.4, sdLCA=0.21, n=1000)
 	}

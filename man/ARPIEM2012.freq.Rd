@@ -51,6 +51,8 @@ Daniele Ganora
 %}
 \examples{
 	\dontrun{
+require(nsRFA)
+
 ARPIEM2012.freq(Qind, sdQind, LCV, sdLCV, LCA, sdLCA, Qind.type, LCV_LCA.type, 
   n = 10000, Tr = c(20, 50, 100, 200, 500), conf.bands = c(0.1, 0.2, 0.8, 0.9))
 	}

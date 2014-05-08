@@ -37,6 +37,8 @@ ARPIEM2012.Lmom.reg(descr)}
 %}
 \examples{
 ## esempio campionario
+require(nsRFA)
+
 x <- rnorm(30) # random sample
 res <- ARPIEM2012.Lmom.sample(x)
 print(res)
